@@ -20,7 +20,7 @@ cd -          # go to previous directory
 # Linux File system
 
 ```
-ls /          #lists linix root file system EX: bin   etc   home   lib   media   opt   root   tmp   usr   var
+ls /		#lists linix root file system EX: bin   etc   home   lib   media   opt   root   tmp   usr   var
 
 bin		#Essential commands like ls, cd, pwd, cat — basic tools every user needs
 boot		#Files needed to start Linux — bootloader, kernel
