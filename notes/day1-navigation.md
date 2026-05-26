@@ -20,27 +20,28 @@ cd -          # go to previous directory
 # Linux File system
 
 ```
-ls /		#lists linix root file system EX: bin   etc   home   lib   media   opt   root   tmp   usr   var
+## Linux File System
 
-bin		#Essential commands like ls, cd, pwd, cat — basic tools every user needs
-boot		#Files needed to start Linux — bootloader, kernel
-cdrom		#Mount point for CD/DVD drive
-dev		#Device hardware is represented as files — CPU, disk, USB, terminal represented as files (you just explored this)
-etc		#All system configuration files — network, users, passwords, services
-home		#Personal folders for each user — your files live here /home/deepthi
-lib		#Shared libraries that bin and sbin programs need to run
-lost+found	#Recovered files after a system crash — Linux puts broken file fragments here
-media		#Auto-mount point for removable drives — USB, external hard disk appears here
-mnt		# Manual mount point — when you manually mount a drive you attach it here
-proc		#Virtual folder — shows running processes and system info as files
-root		#Virtual folder — shows running processes and system info as files
-sbin		#System admin commands — fdisk, reboot, ifconfig — only root can run these
-swapfile	#Virtual memory file — used when RAM is full, acts as extra RAM on disk
-sys		#Virtual folder — exposes kernel and hardware info as files
-temp		#Temporary files — any program can write here, cleared on every reboot
-usr		#User programs and utilities — most installed software goes here
-var		#Variable data — logs, databases, mail, print queues
-
+| Folder | Description |
+|--------|-------------|
+| bin | Essential commands - ls, cd, pwd, cat |
+| boot | Files needed to start Linux |
+| cdrom | Mount point for CD/DVD drive |
+| dev | Hardware represented as files |
+| etc | All system configuration files |
+| home | Personal folders for each user |
+| lib | Shared libraries |
+| lost+found | Recovered files after a system crash |
+| media | Auto-mount for removable drives |
+| mnt | Manual mount point |
+| proc | Virtual folder - running processes |
+| root | Home directory of root user |
+| sbin | System admin commands |
+| swapfile | Virtual memory file |
+| sys | Exposes kernel and hardware info |
+| tmp | Temporary files - cleared every reboot |
+| usr | User programs and utilities |
+| var | Variable data - logs, databases |
 ```
 
 #Most Important Ones
