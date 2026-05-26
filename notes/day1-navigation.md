@@ -1,7 +1,8 @@
 # Day 1
 
-#Navigation Commands
+##Navigation Commands
 
+```
 pwd           # shows current directory
 whoami        # shows current user
 hostname      # Shows the name of your machine
@@ -14,8 +15,11 @@ cd ..         # go one level up
 cd /          # Go to root directory — the top of the entire file system
 cd -          # go to previous directory
 
+```
 
 # Linux File system
+
+```
 ls /          #lists linix root file system EX: bin   etc   home   lib   media   opt   root   tmp   usr   var
 
 bin		#Essential commands like ls, cd, pwd, cat — basic tools every user needs
@@ -37,8 +41,11 @@ temp		#Temporary files — any program can write here, cleared on every reboot
 usr		#User programs and utilities — most installed software goes here
 var		#Variable data — logs, databases, mail, print queues
 
+```
 
 #Most Important Ones
+
+```
 /etc          # config files — "how is the system configured?"
 /var/log      # log files — "what happened on this system?"
 /home         # user files — "where does user data live?"
@@ -47,22 +54,29 @@ var		#Variable data — logs, databases, mail, print queues
 /dev          # devices — "what hardware exists?"
 /tmp          # temp files — "cleared every reboot"
 
+```
 
 # Absolute path — full path from root
+```
 cd /home/deepthi/Linux-Practice
+```
 # Relative path — from where you currently are
+```
 cd Linux-Practice
-
+```
 # Hardware Info Commands
+```
 nproc           # shows number of CPU cores
 lscpu           # shows detailed CPU information
+```
 # Device Files
+```
 /dev/cpu/0,1,2  # each number = one CPU core
 /dev = device files folder — Linux represents hardware as files
 /dev/cpu = represents your CPU cores
 A CPU is the physical chip on your motherboard — there is only one physical chip.
 A core is an independent processing unit inside that one chip.
 So 10 cores = one physical chip that can do 10 things simultaneously
-
+```
 
 
