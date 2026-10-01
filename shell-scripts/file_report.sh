@@ -16,4 +16,4 @@ fi
 #Extension(.sh or .txt or .md etc) counting and adding timestamp
 #tee - it prints to the screen and writes to a file
 timestamp=$(date +%Y-%m-%d)
-ls "$1" | grep -oP '\.[^.]+$' | sort | uniq -c | tee report_$timestamp.log
+ls "$1" | grep -oP '\.[^.]+$' | sort | uniq -c | tee /home/deepthi/Linux-Practice/shell-scripts/report_$timestamp.log
